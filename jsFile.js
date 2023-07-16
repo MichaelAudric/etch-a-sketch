@@ -10,4 +10,5 @@ for (var i = 0; i < 16; i++)
         const div = document.createElement("div");
         container.appendChild(div);
     }
+    body.appendChild(container);
 }
