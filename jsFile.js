@@ -1,5 +1,9 @@
 const body = document.querySelector("body");
 
+function getRandomColor(){
+    return "#" + (Math.floor(Math.random()*16777215).toString(16));
+}
+
 for (var i = 0; i < 16; i++)
 {
     const container = document.createElement("div");
