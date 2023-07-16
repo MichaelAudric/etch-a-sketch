@@ -13,7 +13,8 @@ for (var i = 0; i < n; i++)
 {
     const container = document.createElement("div");
     container.classList.add("container");
-    container.style.cssText = "display:flex; margin : auto; height: 50px;";
+    container.style.cssText = "display:flex; margin : auto;";
+    container.style.height = (960/n).toString()+"px";
     for (var j = 0; j < n; j++)
     {
         const div = document.createElement("div");
