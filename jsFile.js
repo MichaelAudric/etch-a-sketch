@@ -13,6 +13,11 @@ for (var i = 0; i < 16; i++)
     {
         const div = document.createElement("div");
         div.style.cssText = "border : 1px black solid; background color: red; flex:1";
+        div.addEventListener("mouseenter",function(){
+            color = getRandomColor();
+            div.style.backgroundColor = color;
+            div.style.borderColor = color;
+        });
         container.appendChild(div);
     }
     body.appendChild(container);
