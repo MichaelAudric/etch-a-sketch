@@ -1,5 +1,7 @@
 const body = document.querySelector("body");
 
+const n = prompt ("input how many grid do you want in a row:");
+
 function getRandomColor(){
     return "#" + (Math.floor(Math.random()*16777215).toString(16));
 }
