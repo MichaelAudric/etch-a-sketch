@@ -1,4 +1,5 @@
 const body = document.querySelector("body");
+body.style.backgroundColor = "black";
 
 const n = prompt ("input how many grid do you want in a row (input below 100 for best performance):");
 
