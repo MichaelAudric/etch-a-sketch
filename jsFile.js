@@ -9,12 +9,12 @@ function getRandomColor(){
 const container_of_containers = document.createElement("div");
 container_of_containers.style.cssText = "border : 1px black solid; width : 960px; margin: auto;";
 
-for (var i = 0; i < 16; i++)
+for (var i = 0; i < n; i++)
 {
     const container = document.createElement("div");
     container.classList.add("container");
     container.style.cssText = "display:flex; margin : auto; height: 50px;";
-    for (var j = 0; j < 16; j++)
+    for (var j = 0; j < n; j++)
     {
         const div = document.createElement("div");
         div.style.cssText = "background color: red; flex:1";
