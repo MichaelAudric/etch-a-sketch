@@ -5,7 +5,7 @@ function getRandomColor(){
 }
 
 const container_of_containers = document.createElement("div");
-container_of_containers.style.cssText = "border : 1px black solid; width : 960px;";
+container_of_containers.style.cssText = "border : 1px black solid; width : 960px; margin: auto;";
 
 for (var i = 0; i < 16; i++)
 {
