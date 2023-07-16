@@ -7,6 +7,6 @@ for (var i = 0; i < 16; i++)
     container.style.cssText = "display:flex;";
     for (var j = 0; j < 16; j++)
     {
-
+        const div = document.createElement("div");
     }
 }
