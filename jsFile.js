@@ -23,5 +23,5 @@ for (var i = 0; i < 16; i++)
         });
         container.appendChild(div);
     }
-    body.appendChild(container);
+    container_of_containers.appendChild(container);
 }
