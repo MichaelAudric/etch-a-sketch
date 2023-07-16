@@ -1,6 +1,11 @@
 const body = document.querySelector("body");
 body.style.backgroundColor = "black";
 
+const h1 = document.createElement("h1");
+h1.innerHTML = "Go ahead and draw your \"art\"";
+h1.style.cssText = "color: white; text-align: center;";
+body.appendChild(h1);
+
 const n = prompt ("input how many grid do you want in a row (input below 100 for best performance):");
 
 function getRandomColor(){
@@ -8,7 +13,7 @@ function getRandomColor(){
 }
 
 const container_of_containers = document.createElement("div");
-container_of_containers.style.cssText = "border : 1px black solid; width : 800px; margin: auto;";
+container_of_containers.style.cssText = "border : 1px white solid; width : 800px; margin: auto;";
 
 for (var i = 0; i < n; i++)
 {
