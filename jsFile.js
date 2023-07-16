@@ -25,3 +25,4 @@ for (var i = 0; i < 16; i++)
     }
     container_of_containers.appendChild(container);
 }
+body.appendChild(container_of_containers);
